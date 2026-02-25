@@ -2,7 +2,7 @@
 
 This project develops a quantitative framework to identify statistically related equities and construct potential statistical arbitrage opportunities using unsupervised learning and time-series analysis.
 
-## 📊 Key Research Visualizations
+## Key Research Visualizations
 
 ### 1. Dimensionality Reduction (PCA)
 ![Varianza](Varianza_Explicada.png)
@@ -21,7 +21,7 @@ This project develops a quantitative framework to identify statistically related
 
 ---
 
-## 🛠️ Skills & Tools
+## Skills & Tools
 * **Technical Stack**: Python (Pandas, Scikit-Learn, Statsmodels), MATLAB.
 * **Quantitative Methods**: Time-series analysis, cointegration tests, and unsupervised machine learning.
 * **Academic Background**: Double degree student in Finance and International Business at Universidad EAFIT.
