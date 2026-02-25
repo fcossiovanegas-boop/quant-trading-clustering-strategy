@@ -1,19 +1,32 @@
 # Quantitative Trading Research: PCA + DBSCAN Clustering
 
-## Overview
-Este proyecto desarrolla un framework cuantitativo para identificar activos financieramente relacionados y construir oportunidades de **arbitraje estadístico** utilizando aprendizaje no supervisado y análisis de series de tiempo. 
+This project develops a quantitative framework to identify statistically related equities and construct potential statistical arbitrage opportunities using unsupervised learning and time-series analysis.
 
-## Metodología
-* **Dataset:** Análisis de más de 500 acciones (*equities*). 
-* **Reducción de Dimensionalidad:** Aplicación de **PCA** (Análisis de Componentes Principales) para filtrar ruido. 
-* **Clustering:** Uso de **DBSCAN** para identificar agrupaciones naturales de activos sin sesgo de sector. 
-* **Validación Estadística:** Pruebas de **cointegración** para selección de pares y señales de reversión a la media (*half-life*). 
+## 📊 Key Research Visualizations
 
-## Resultados Clave
-* Logré estructuras de clusters estables con un **Silhouette Score de hasta 0.42**. 
-* Identificación de señales de reversión con métricas de *half-life* para ejecución de trading. 
-* Construcción de un pipeline completo en Python (procesamiento, reducción y scoring). 
+### 1. Dimensionality Reduction (PCA)
+![Varianza](Varianza_Explicada.png)
+* **Process**: Used **Principal Component Analysis (PCA)** to reduce the dimensionality of 500+ equities, filtering out idiosyncratic noise.
+* **Impact**: This step ensures that the subsequent clustering is based on structural risk factors rather than market volatility.
 
-## Herramientas Utilizadas
-* **Lenguaje:** Python. 
-* **Librerías:** Scikit-learn (Machine Learning), Pandas (Datos), Statsmodels (Estadística). 
+### 2. Asset Selection via DBSCAN Clustering
+![Clusters](DBSCAN_+_PCA.png)
+* **Methodology**: Applied **DBSCAN** on the principal components to identify natural groupings of assets without sector bias.
+* **Results**: Achieved stable cluster structures across rolling windows with a **silhouette score of up to 0.42**.
+
+### 3. Statistical Arbitrage Signal (Spread)
+![Spread](SPREAD_OKE_CF.png)
+* **Strategy**: Within each cluster, I identified statistically cointegrated pairs to generate mean-reversion signals.
+* **Signal**: The spread analysis calculates the **half-life of mean reversion**, allowing for precise entry and exit points in a pairs trading strategy.
+
+---
+
+## 🛠️ Skills & Tools
+* **Technical Stack**: Python (Pandas, Scikit-Learn, Statsmodels), MATLAB.
+* **Quantitative Methods**: Time-series analysis, cointegration tests, and unsupervised machine learning.
+* **Academic Background**: Double degree student in Finance and International Business at Universidad EAFIT.
+
+---
+
+
+
