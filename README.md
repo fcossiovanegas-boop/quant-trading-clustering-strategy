@@ -73,12 +73,11 @@ These results suggest that performance is not driven purely by overfitting, and 
 ---
 ## Strategy Performance
 
-### Equity Curve
-![Equity Curve](./SPREAD_OKE_CF.png)
+### Equity Curve (Rolling Out-of-Sample)
+![Equity Curve](./equity_curve.png)
 
-### Drawdown
-![Drawdown](./Varianza_Explicada.png)
-
+### Drawdown (Rolling Out-of-Sample)
+![Drawdown](./drawdown.png)
 ---
 
 ## Key Insights
