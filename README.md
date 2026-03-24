@@ -70,6 +70,14 @@ To reduce look-ahead bias and test robustness:
 - Cumulative Return: **~14%**
 
 These results suggest that performance is not driven purely by overfitting, and that a subset of stable pairs retains predictive structure out-of-sample.
+---
+## Strategy Performance
+
+### Equity Curve
+![Equity Curve](./SPREAD_OKE_CF.png)
+
+### Drawdown
+![Drawdown](./Varianza_Explicada.png)
 
 ---
 
